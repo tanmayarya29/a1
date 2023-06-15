@@ -78,6 +78,9 @@ const CustomCard = (props: CustomCardProps) => {
           color: buttonTextColor,
           width: "max-content",
           textTransform: "capitalize",
+          ":hover": {
+            backgroundColor: buttonBgColor,
+          },
         }}
       >
         {buttonText}

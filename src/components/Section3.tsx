@@ -4,6 +4,7 @@ import happy from "../assets/happy.png";
 import guy from "../assets/guy.png";
 import web from "../assets/web.png";
 import phone from "../assets/phone.png";
+import strng from "../assets/strng.png";
 
 const Section3 = () => {
   const header = {
@@ -63,7 +64,17 @@ const Section3 = () => {
     },
   ];
   return (
-    <Stack>
+    <Stack
+      sx={{
+        backgroundImage: `url(${strng})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "left top",
+        backgroundSize: "770px 910px",
+        backgroundOrigin: "content-box",
+        backgroundPositionY: "330px",
+        backgroundPositionX: "40px",
+      }}
+    >
       <Stack
         direction={"column"}
         justifyContent={"center"}
